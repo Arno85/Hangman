@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="container">
+    <section class="hangman">
+        <div class="svg">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Hangman" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 600"
+                style="enable-background:new 0 0 600 600;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: transparent;
+                        stroke: #000000;
+                        stroke-width: 3;
+                        stroke-miterlimit: 10;
+                    }
+                </style>
+                <rect class="hangman-parts" id="base-pole" opacity="0" x="75" y="548.5" width="150" height="3" />
+                <rect class="hangman-parts" id="pole" opacity="0" x="-100" y="297"
+                    transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 448.5 148.5)" width="500" height="3" />
+                <rect class="hangman-parts" id="top-pole" opacity="0" x="148.78" y="48.22" width="250" height="3" />
+                <rect class="hangman-parts" id="angle-pole" opacity="0" x="126.75" y="103.68"
+                    transform="matrix(0.7071 -0.7071 0.7071 0.7071 -14.1619 176.1777)" width="157.67" height="3" />
+                <rect class="hangman-parts" id="rope" opacity="0" x="372.28" y="72"
+                    transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 470.7787 -323.7787)" width="50" height="3" />
+                <circle class="hangman-parts" id="head" opacity="0" class="st0" cx="397.28" cy="130.37" r="32.5" />
+                <rect class="hangman-parts" id="body" opacity="0" x="297.28" y="261.37"
+                    transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 660.1472 -134.4103)" width="200" height="3" />
+                <rect class="hangman-parts" id="left-arm" opacity="0" x="310.86" y="203.48"
+                    transform="matrix(0.7071 0.7071 -0.7071 0.7071 250.6336 -195.1326)" width="100" height="3" />
+                <rect class="hangman-parts" id="right-arm" opacity="0" x="382.19" y="203.48"
+                    transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 882.7419 44.3068)" width="100" height="3" />
+                <rect class="hangman-parts" id="right-leg" opacity="0" x="382.19" y="393.65"
+                    transform="matrix(0.7071 0.7071 -0.7071 0.7071 405.9967 -189.8725)" width="100" height="3" />
+                <rect class="hangman-parts" id="left-leg" opacity="0" x="310.86" y="393.65"
+                    transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 895.441 419.3865)" width="100" height="3" />
+            </svg>
+        </div>
+    </section>
+    <button id="restartGame">Restart Game</button>
+    <section class="letters"></section>
+    <section class="inputs"></section>
+</body>
+
+<script src="./script/main.js"></script>
+
+</html>
